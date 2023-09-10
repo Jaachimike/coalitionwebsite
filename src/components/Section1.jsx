@@ -9,6 +9,7 @@ import { Pagination } from "swiper/modules";
 
 import CarouselImg1 from "../images/carousel_img1.png";
 import CarouselImg2 from "../images/carousel_img2.png";
+// import CarouselComponent from "./Carousel/CarouselComponent";
 
 const Section1 = () => {
   return (
@@ -17,20 +18,24 @@ const Section1 = () => {
         {/* CONTAINER */}
         <div className=" flex flex-col h-full  ">
           {/* WRITEUP */}
-          <div className="flex-grow max-w-4xl mx-auto">
+          <div className="flex-grow max-w-4xl mx-auto mt-12 ">
             {/* HEADING */}
-            <div className=" flex">
-              <h1 className=" text-[135.63pt]">01</h1>
+            <div className=" flex  items-end ">
+              <div className=" font-Oswald text-[135.63pt] leading-half tracking-[-0.7rem] text-[#414f6b] text-opacity-75  ">
+                01
+              </div>
 
-              <div>
-                <h2 className=" text-[32pt]">HISTORY</h2>
-                <div className=" text-[135.63pt]">.</div>
+              <div className="ml-2 ">
+                <p className=" font-Oswald text-[32pt] text-[#414f6b]">
+                  HISTORY
+                </p>
+                <div className=" bg-[#414f6b] bg-opacity-75 w-6 h-6 ">.</div>
               </div>
             </div>
 
             {/* BODY */}
-            <div className=" flex items-center justify-center">
-              <p className=" text-start  text-[16pt]">
+            <div className=" px-[110px] ">
+              <p className=" text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 in ante viverra, rutrum erat rutrum, consectetur mi. Proin at
                 maximus est. Nullam purus ex, iaculis sed erat sed, blandit

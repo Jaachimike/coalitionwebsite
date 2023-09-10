@@ -18,8 +18,8 @@ const StickyNav = () => {
         </div>
 
         {/* NAV LINKS */}
-        <nav>
-          <Link className="mr-10"> 01. HISTORY</Link>
+        <nav className=" text-[12pt] font-Lato text-[#414f6b] underline underline-offset-4">
+          <Link className="mr-12"> 01. HISTORY</Link>
           <Link> 02. TEAM </Link>
         </nav>
       </div>
