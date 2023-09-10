@@ -5,7 +5,7 @@ import Logo from "../images/coalition logo.png";
 const Header = () => {
   return (
     <header className=" font-Lato">
-      <div className=" flex items-center justify-between max-w-4xl mx-auto pt-3 ">
+      <div className=" flex items-center justify-between max-w-4xl mx-auto pt-3 px-5 ">
         {/* LOGO */}
         <div>
           <Link to="/">
@@ -15,7 +15,7 @@ const Header = () => {
 
         {/* NAV LINKS */}
         <nav className=" text-[#fefeff] underline underline-offset-4">
-          <Link className=" mr-12 ">01. HISTORY</Link>
+          <Link className="  mr-3">01. HISTORY</Link>
           <Link> 02. TEAM </Link>
         </nav>
       </div>

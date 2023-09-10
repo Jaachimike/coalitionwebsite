@@ -21,7 +21,7 @@ const Section2 = () => {
           </div>
         </div>
         <div>
-          <p className=" ml-5 text-[15px] ">
+          <p className=" ml-5 my-2 text-[15px] ">
             Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
             gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
             dignissim tortor nec congue.

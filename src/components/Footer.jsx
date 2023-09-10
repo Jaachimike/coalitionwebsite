@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <div className=" bg-[#414f6b]">
-        <div className="max-w-4xl mx-auto pl-5 py-4 flex items-center justify-between">
+        <div className="max-w-4xl mx-auto px-5 py-4 flex items-center justify-between">
           {/* FOOTER LOGO */}
           <div className=" flex items-end ">
             <img src={footerLogo} alt="" className=" mr-3" />
@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* COPYRIGHT */}
           <div>
-            <p className=" text-[#63769d]">
+            <p className=" ml-20 text-[#63769d]">
               COPYRIGHT 2016. ALL RIGHTS RESERVED
             </p>
           </div>

@@ -34,7 +34,7 @@ const Section1 = () => {
             </div>
 
             {/* BODY */}
-            <div className="  px-24 ">
+            <div className=" px-10 ">
               <p className=" text-[13px] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 in ante viverra, rutrum erat rutrum, consectetur mi. Proin at
