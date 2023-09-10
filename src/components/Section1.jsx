@@ -34,8 +34,8 @@ const Section1 = () => {
             </div>
 
             {/* BODY */}
-            <div className=" px-[110px] ">
-              <p className=" text-sm ">
+            <div className="  px-24 ">
+              <p className=" text-[13px] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 in ante viverra, rutrum erat rutrum, consectetur mi. Proin at
                 maximus est. Nullam purus ex, iaculis sed erat sed, blandit
@@ -53,12 +53,31 @@ const Section1 = () => {
               {/* CAROUSEL */}
               <div>
                 <Swiper
-                  slidesPerView={3}
-                  spaceBetween={-150}
+                  slidesPerView={4}
+                  spaceBetween={8}
                   pagination={{
                     clickable: true,
                   }}
                   modules={[Pagination]}
+                  breakpoints={
+                    // when window width is >= 320px
+                    {
+                      320: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      // when window width is >= 480px
+                      480: {
+                        slidesPerView: 3,
+                        spaceBetween: 8,
+                      },
+                      // when window width is >= 640px
+                      640: {
+                        slidesPerView: 4,
+                        spaceBetween: 8,
+                      },
+                    }
+                  }
                   className="mySwiper"
                 >
                   <SwiperSlide>

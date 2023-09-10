@@ -21,7 +21,7 @@ const Section2 = () => {
           </div>
         </div>
         <div>
-          <p className=" ml-5 ">
+          <p className=" ml-5 text-[15px] ">
             Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
             gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
             dignissim tortor nec congue.
@@ -63,25 +63,27 @@ const Section2 = () => {
         {selectedMountain === "MOUNTAIN 1" && (
           <div className=" h-screen bg-tab1bg bg-cover">
             <div className=" pt-24 pl-8 max-w-4xl mx-auto">
-              <div className=" flex flex-col justify-center items-center bg-[#ffffff] w-[352px] h-[229px]">
-                <h1 className=" ml-11 self-start text-3xl font-Oswald">
-                  SCHEDULE
-                </h1>
-                {/* DATE AND LOCATION */}
-                <div className=" flex">
-                  {/* DATE */}
-                  <div className=" mr-11 ">
-                    <p>25 Nov 2016</p>
-                    <p>28 Nov 2016</p>
-                    <p>18 Dec 2016</p>
-                    <p>7 Jan 2017</p>
-                  </div>
-                  {/* LOCATION */}
-                  <div>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
+              <div className=" flex  justify-center items-start bg-[#ffffff] w-[352px] h-[229px]">
+                <div className=" flex flex-col items-start mt-3 ">
+                  <h1 className="   text-[#414f6b] text-3xl font-Oswald mb-1">
+                    SCHEDULE
+                  </h1>
+                  {/* DATE AND LOCATION */}
+                  <div className=" flex">
+                    {/* DATE */}
+                    <div className=" mr-11 ">
+                      <p>25 Nov 2016</p>
+                      <p>28 Nov 2016</p>
+                      <p>18 Dec 2016</p>
+                      <p>7 Jan 2017</p>
+                    </div>
+                    {/* LOCATION */}
+                    <div>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -93,25 +95,27 @@ const Section2 = () => {
         {selectedMountain === "MOUNTAIN 2" && (
           <div className=" h-screen bg-tab2bg bg-cover ">
             <div className=" pt-24 pl-8 max-w-4xl mx-auto">
-              <div className=" flex flex-col justify-center items-center bg-[#ffffff] w-[352px] h-[229px]">
-                <h1 className=" ml-11 self-start font-Oswald text-[32pt]">
-                  SCHEDULE
-                </h1>
-                {/* DATE AND LOCATION */}
-                <div className=" flex">
-                  {/* DATE */}
-                  <div className=" mr-11 ">
-                    <p>17 Nov 2016</p>
-                    <p>13 Dec 2016</p>
-                    <p>28 Dec 2016</p>
-                    <p>9 Feb 2017</p>
-                  </div>
-                  {/* LOCATION */}
-                  <div>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
-                    <p>Vestibulum viverra</p>
+              <div className=" flex  justify-center items-start bg-[#ffffff] w-[352px] h-[229px]">
+                <div className=" flex flex-col items-start mt-3 ">
+                  <h1 className="   text-[#414f6b] text-3xl font-Oswald mb-1">
+                    SCHEDULE
+                  </h1>
+                  {/* DATE AND LOCATION */}
+                  <div className=" flex">
+                    {/* DATE */}
+                    <div className=" mr-11 ">
+                      <p>17 Nov 2016</p>
+                      <p>13 Dec 2016</p>
+                      <p>28 Dec 2016</p>
+                      <p>9 Feb 2017</p>
+                    </div>
+                    {/* LOCATION */}
+                    <div>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                      <p>Vestibulum viverra</p>
+                    </div>
                   </div>
                 </div>
               </div>
