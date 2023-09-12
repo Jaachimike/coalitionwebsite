@@ -20,8 +20,8 @@ const Section2 = () => {
             <div className=" bg-[#b0b4be] w-6 h-6 ">.</div>
           </div>
         </div>
-        <div>
-          <p className=" ml-5 my-2 text-[15px] ">
+        <div className=" w-64 overflow-hidden">
+          <p className=" ml-5 my-2 text-[15px]  ">
             Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
             gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
             dignissim tortor nec congue.
