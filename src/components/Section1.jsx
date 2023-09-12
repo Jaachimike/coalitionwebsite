@@ -30,9 +30,7 @@ const Section1 = () => {
                 <p className=" font-Oswald text-[32pt] text-[#414f6b]">
                   HISTORY
                 </p>
-                <div className=" bg-[#414f6b] text-[#414f6b] bg-opacity-75 w-6 h-6 ">
-                  .
-                </div>
+                <div className=" bg-[#414f6b] text-[#414f6b] text-opacity-75 bg-opacity-75 w-6 h-6 "></div>
               </div>
             </div>
 
@@ -84,31 +82,31 @@ const Section1 = () => {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <img src={CarouselImg1} alt="" srcset="" />
+                    <img src={CarouselImg1} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg2} alt="" srcset="" />
+                    <img src={CarouselImg2} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg1} alt="" srcset="" />
+                    <img src={CarouselImg1} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg2} alt="" srcset="" />
+                    <img src={CarouselImg2} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg1} alt="" srcset="" />
+                    <img src={CarouselImg1} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg2} alt="" srcset="" />
+                    <img src={CarouselImg2} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg1} alt="" srcset="" />
+                    <img src={CarouselImg1} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg2} alt="" srcset="" />
+                    <img src={CarouselImg2} alt="" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src={CarouselImg1} alt="" srcset="" />
+                    <img src={CarouselImg1} alt="" />
                   </SwiperSlide>
                 </Swiper>
               </div>

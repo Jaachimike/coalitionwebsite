@@ -9,12 +9,7 @@ const HeroSection = ({ scrollToSection }) => {
         <Header scrollToSection={scrollToSection} />
         <div className="max-w-4xl mx-auto ">
           <div className=" mt-28 mx-8  flex justify-center lg:justify-start  lg:ml-24 lg:mt-72 ">
-            <img
-              src={HeroImage}
-              alt="losangeles mountain"
-              srcset=""
-              className=" "
-            />
+            <img src={HeroImage} alt="losangeles mountain" />
           </div>
         </div>
       </section>

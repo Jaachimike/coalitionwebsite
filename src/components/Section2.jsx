@@ -17,7 +17,7 @@ const Section2 = () => {
           </h1>
           <div className=" ml-2">
             <h2 className=" font-bold text-[32pt] text-[#414f6b]">CLIMB</h2>
-            <div className=" bg-[#b0b4be] w-6 h-6 text-[#b0b4be] ">.</div>
+            <div className=" bg-[#b0b4be] w-6 h-6 text-[#b0b4be] "></div>
           </div>
         </div>
         <div className=" mb-6 md:mb-0 w-fit overflow-hidden">
