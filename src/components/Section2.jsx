@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Section2 = () => {
   const [selectedMountain, setSelectedMountain] = useState("MOUNTAIN 1");
 
-  const hanleMountainClick = (mountain) => {
+  const handleMountainClick = (mountain) => {
     setSelectedMountain(mountain);
   };
 
@@ -39,7 +39,7 @@ const Section2 = () => {
                 : "text-[#b0b4be]"
             }`}
           >
-            <button onClick={() => hanleMountainClick("MOUNTAIN 1")}>
+            <button onClick={() => handleMountainClick("MOUNTAIN 1")}>
               MOUNTAIN 1
             </button>
           </div>
@@ -50,7 +50,7 @@ const Section2 = () => {
                 : "text-[#b0b4be]"
             } `}
           >
-            <button onClick={() => hanleMountainClick("MOUNTAIN 2")}>
+            <button onClick={() => handleMountainClick("MOUNTAIN 2")}>
               MOUNTAIN 2
             </button>
           </div>
