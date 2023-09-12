@@ -8,7 +8,7 @@ const Section2 = () => {
   };
 
   return (
-    <div className=" ">
+    <div>
       {/* SECTION 2 WRITEUP */}
       <div className=" max-w-4xl mx-auto flex items-center">
         <div className="  flex items-end mb-9 mt-3 font-Oswald ">
