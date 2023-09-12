@@ -35,8 +35,8 @@ const Section1 = () => {
             </div>
 
             {/* BODY */}
-            <div className=" px-10 ">
-              <p className=" text-[13px] ">
+            <div className=" px-4 flex justify-center items-center md:px-10 md:pl-24 ">
+              <p className=" text-[14px] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 in ante viverra, rutrum erat rutrum, consectetur mi. Proin at
                 maximus est. Nullam purus ex, iaculis sed erat sed, blandit
