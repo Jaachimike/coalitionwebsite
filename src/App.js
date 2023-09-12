@@ -30,7 +30,7 @@ function App() {
     <div>
       <HeroSection scrollToSection={scrollToSection} />
 
-      <StickyNav />
+      <StickyNav scrollToSection={scrollToSection} />
 
       {/* SECTION 1 */}
       <section ref={section1Ref}>
